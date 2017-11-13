@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Russo+One');
+
+body {
+    background-color: #F5F3F3;
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Russo One', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+nav ul  li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a,nav a:hover{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+}
+
+.logo h1 {
+    padding-left: 40px; 
+}
+
+.cabecalho-menu {
+    padding: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #aaa;
+}
+
+.icones-cabecalho-menu {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    height: 80px;
+}
+
+.icones-cabecalho-menu i {
+    margin-right: 15px;
+}
+
+.menu {
+    background-color: rgb(255,62,35);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.menu .botao-loja {
+    padding-right: 10px;
+}
+
+.painel {
+    background-image: url("fundo-cortado.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    padding: 10px;
+    margin-bottom: 100px;
+    height: 500px;
+}
+
+.painel h1 {
+    color: #FFF;
+    opacity: 1;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.botao-leia-mais {
+    border-radius: 0px;
+    padding: 10px;
+    background-color: rgb(255,62,35);
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu-opcao {
+    background-color: #ccc;
+    color: #fff;
+    padding: 15px;
+}
+
+.botao-compra {
+    margin-top: 30px;
+}
